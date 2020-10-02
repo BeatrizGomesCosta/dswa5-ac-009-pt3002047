@@ -12,7 +12,7 @@ const findDocuments = function(db, callback) {
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 //Connection URL
-const url = 'mongodb+srv://BeatrizGomesCosta:bgc201100@cluster0.gdojq.mongodb.net/test?authSource=admin&replicaSet=atlas-oqekkv-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true'
+const url = 'mongodb+srv://BeatrizGomesCosta:bgc201100@cluster0.gdojq.mongodb.net/ifsp?retryWrites=true&w=majoritynpm'
     //Database name
 const dbName = 'ifsp';
 //Use connect method to connect to the server
