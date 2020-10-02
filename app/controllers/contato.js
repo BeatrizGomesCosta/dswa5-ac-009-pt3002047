@@ -3,9 +3,9 @@ const contato = require("../routes/contato");
 var ID_CONTATO_INC = 3;
 
 var contatos = [
-    { _id: 1, nome: "Matheus Nakano", email: 'matheus.nakano@ifsp.edu.br' },
-    { _id: 2, nome: "Rodrigo Inoue", email: 'rodrigo.inoue@ifsp.edu.br' },
-    { _id: 3, nome: "Larissa Ellen", email: 'larissa.ellen@ifsp.edu.br' }
+    { _id: 1, nome: "Guilherme Bonato", email: 'guilherme@ifsp.edu.br' },
+    { _id: 2, nome: "Beatriz Gomes", email: 'beatriz@ifsp.edu.br' },
+    { _id: 3, nome: "Nino", email: 'nino@ifsp.edu.br' }
 ]
 
 module.exports = function(app) {
